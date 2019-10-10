@@ -14,7 +14,7 @@ bluetooth := libbluetooth.so
 bluetooth_qti_path := $(lib_dir)/$(bluetooth_qti)
 bluetooth_path := $(lib_dir)/$(bluetooth)
 
-$(bluetooth_qti_path): $(bluetooth_path)
-	cd $(lib_dir) && ln -sf $(bluetooth) $(bluetooth_qti)
+#$(bluetooth_qti_path): $(bluetooth_path)
+#	cd $(lib_dir) && ln -sf $(bluetooth) $(bluetooth_qti)
 
-droid: $(bluetooth_qti_path)
+#droid: $(bluetooth_qti_path)
